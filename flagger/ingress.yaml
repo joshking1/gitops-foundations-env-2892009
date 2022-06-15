@@ -13,5 +13,5 @@ spec:
       http:
         paths:
           - backend:[0]
-              serviceName: gitops-foundations-service
+              serviceName: [0]
               servicePort: 80
