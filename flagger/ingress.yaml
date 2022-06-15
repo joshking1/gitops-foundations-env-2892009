@@ -12,6 +12,6 @@ spec:
     - host: 34.122.176.143:80
       http:
         paths:
-          - backend:
+          - backend:[0]
               serviceName: gitops-foundations-service
               servicePort: 80
